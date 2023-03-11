@@ -1,0 +1,62 @@
+
+body{
+    width: available;
+    height: available;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container{
+    width: available;
+    height: available;
+}
+
+.left-pane{
+    width: 45%;
+    height: 250px;
+    min-width: 350px;
+    float: left;
+    border-collapse: collapse;
+}
+
+.right-pane{
+   width: 50%;
+   height: 250px;
+   min-width: 800px;
+   float: left;
+   border-collapse: collapse;
+}
+
+img.img-section {
+    position: relative;
+    left: 175px;
+}
+
+label{
+    display: inline-block;
+    float: right;
+    clear: right;
+    text-align: left;
+    padding: 10px;
+}
+input {
+  display: inline-block;
+  float: right;
+}
+
+button {
+    position: relative;
+    top: 100px;
+    left: 563px;
+}
+
+.event-contents {
+    position: relative;
+    right: 250px;
+}
